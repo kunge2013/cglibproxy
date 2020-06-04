@@ -18,7 +18,7 @@ package net.sf.cglib.proxy;
 import java.util.List;
 import net.sf.cglib.core.*;
 
-interface CallbackGenerator
+public interface CallbackGenerator
 {
     void generate(ClassEmitter ce, Context context, List methods) throws Exception;
     void generateStatic(CodeEmitter e, Context context, List methods) throws Exception;

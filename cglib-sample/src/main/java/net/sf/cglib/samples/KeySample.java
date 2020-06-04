@@ -9,6 +9,7 @@ public class KeySample {
         Object key1 = f.newInstance(20, new char[]{ 'a', 'b' }, "hello");
         Object key2 = f.newInstance(20, new char[]{ 'a', 'b' }, "hello");
         Object key3 = f.newInstance(20, new char[]{ 'a', '_' }, "hello");
+        System.out.println(key1);
         System.out.println(key1.equals(key2));
         System.out.println(key2.equals(key3));
     }

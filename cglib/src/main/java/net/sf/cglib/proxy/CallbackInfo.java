@@ -17,7 +17,7 @@ package net.sf.cglib.proxy;
 
 import org.objectweb.asm.Type;
 
-class CallbackInfo
+public class CallbackInfo
 {
     public static Type[] determineTypes(Class[] callbackTypes) {
         return determineTypes(callbackTypes, true);

@@ -39,7 +39,7 @@ import org.objectweb.asm.Opcodes;
  *
  * @author sberlin@gmail.com (Sam Berlin)
  */
-class BridgeMethodResolver {
+public class BridgeMethodResolver {
 
     private final Map/* <Class, Set<Signature> */declToBridge;
     private final ClassLoader classLoader;
